@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径
 // const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
-const live2d_path = "https://fastly.jsdelivr.net/gh/lrplrplrp/bkyl2d@master/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/rickly233/bkyl2d@master/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -38,7 +38,7 @@ if (screen.width >= 768) {
 			// cdnPath: "https://live2d-api.vercel.app/"
 			//apiPath: "https://api3.fghrsh.net/live2d/"
 			// cdnPath: "https://gitee.com/ajream/live2d_api/raw/master/"
-			cdnPath: "https://cdn.staticaly.com/gh/lrplrplrp/live2d_api/master/"
+			cdnPath: "https://cdn.staticaly.com/gh/rickly233/live2d_api/master/"
 		});
 	});
 }
